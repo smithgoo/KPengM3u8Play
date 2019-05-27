@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9812C9B6983D2D09C5E2C363 /* libPods-KpengIjkPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4146992252A6A1633078F732 /* libPods-KpengIjkPlayer.a */; };
+		AA33800A2283C22000831032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380092283C22000831032 /* AppDelegate.m */; };
+		AA33800D2283C22000831032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33800C2283C22000831032 /* ViewController.m */; };
+		AA3380102283C22000831032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA33800E2283C22000831032 /* Main.storyboard */; };
+		AA3380122283C22400831032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3380112283C22400831032 /* Assets.xcassets */; };
+		AA3380152283C22400831032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3380132283C22400831032 /* LaunchScreen.storyboard */; };
+		AA3380182283C22400831032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380172283C22400831032 /* main.m */; };
+		AA3380222283C26B00831032 /* KPm3u8DownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33801F2283C26B00831032 /* KPm3u8DownLoad.m */; };
+		AA3380232283C26B00831032 /* WHCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380202283C26B00831032 /* WHCFileManager.m */; };
+		AA33802E2283C28900831032 /* BrightnessVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380272283C28800831032 /* BrightnessVolumeView.m */; };
+		AA33802F2283C28900831032 /* BrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380282283C28800831032 /* BrightnessView.m */; };
+		AA3380302283C28900831032 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA3380292283C28800831032 /* resource.bundle */; };
+		AA3380312283C28900831032 /* NowTimeSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33802B2283C28900831032 /* NowTimeSpeed.m */; };
+		AA3380322283C28900831032 /* KPIjkVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33802D2283C28900831032 /* KPIjkVideoView.m */; };
+		AA33803A2283D64900831032 /* DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380382283D64900831032 /* DownLoadViewController.m */; };
+		AA33803B2283D64900831032 /* DownLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3380392283D64900831032 /* DownLoadViewController.xib */; };
+		AA33803F2283D99100831032 /* DownLoadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33803D2283D99100831032 /* DownLoadTableViewCell.m */; };
+		AA3380402283D99100831032 /* DownLoadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA33803E2283D99100831032 /* DownLoadTableViewCell.xib */; };
+		AA3380422284004500831032 /* ijk_m3u8.md in Resources */ = {isa = PBXBuildFile; fileRef = AA3380412284004500831032 /* ijk_m3u8.md */; };
+		AA3380452288486F00831032 /* KPNormalDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3380442288486F00831032 /* KPNormalDownLoad.m */; };
+		AA33804E228856B800831032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33804D228856B800831032 /* AppDelegate.m */; };
+		AA338051228856B800831032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA338050228856B800831032 /* ViewController.m */; };
+		AA338053228856BA00831032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA338052228856BA00831032 /* Assets.xcassets */; };
+		AA338056228856BA00831032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA338054228856BA00831032 /* Main.storyboard */; };
+		AA338059228856BA00831032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA338058228856BA00831032 /* main.m */; };
+		AA92A6F6229C1BCF00F0B12E /* TYDownLoadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92A6EB229C1BCF00F0B12E /* TYDownLoadDataManager.m */; };
+		AA92A6F7229C1BCF00F0B12E /* TYDownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92A6EC229C1BCF00F0B12E /* TYDownLoadModel.m */; };
+		AA92A6F8229C1BCF00F0B12E /* TYDownloadUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92A6ED229C1BCF00F0B12E /* TYDownloadUtility.m */; };
+		AA92A6F9229C1BCF00F0B12E /* TYDownloadSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92A6EE229C1BCF00F0B12E /* TYDownloadSessionManager.m */; };
+		AA92A6FA229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92A6EF229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4146992252A6A1633078F732 /* libPods-KpengIjkPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KpengIjkPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432A661989D09AFCE494C8FD /* Pods-KpengIjkPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpengIjkPlayer.debug.xcconfig"; path = "Target Support Files/Pods-KpengIjkPlayer/Pods-KpengIjkPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		8D81BB68B26827CD30354C42 /* Pods-KpengIjkPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpengIjkPlayer.release.xcconfig"; path = "Target Support Files/Pods-KpengIjkPlayer/Pods-KpengIjkPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		AA3380052283C22000831032 /* KpengIjkPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KpengIjkPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3380082283C22000831032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA3380092283C22000831032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA33800B2283C22000831032 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA33800C2283C22000831032 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA33800F2283C22000831032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3380112283C22400831032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3380142283C22400831032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3380162283C22400831032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3380172283C22400831032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA33801E2283C26B00831032 /* KPm3u8DownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPm3u8DownLoad.h; sourceTree = "<group>"; };
+		AA33801F2283C26B00831032 /* KPm3u8DownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPm3u8DownLoad.m; sourceTree = "<group>"; };
+		AA3380202283C26B00831032 /* WHCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCFileManager.m; sourceTree = "<group>"; };
+		AA3380212283C26B00831032 /* WHCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCFileManager.h; sourceTree = "<group>"; };
+		AA3380252283C28800831032 /* BrightnessVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessVolumeView.h; sourceTree = "<group>"; };
+		AA3380262283C28800831032 /* BrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessView.h; sourceTree = "<group>"; };
+		AA3380272283C28800831032 /* BrightnessVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessVolumeView.m; sourceTree = "<group>"; };
+		AA3380282283C28800831032 /* BrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessView.m; sourceTree = "<group>"; };
+		AA3380292283C28800831032 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		AA33802A2283C28900831032 /* NowTimeSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowTimeSpeed.h; sourceTree = "<group>"; };
+		AA33802B2283C28900831032 /* NowTimeSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowTimeSpeed.m; sourceTree = "<group>"; };
+		AA33802C2283C28900831032 /* KPIjkVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPIjkVideoView.h; sourceTree = "<group>"; };
+		AA33802D2283C28900831032 /* KPIjkVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPIjkVideoView.m; sourceTree = "<group>"; };
+		AA3380372283D64900831032 /* DownLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownLoadViewController.h; sourceTree = "<group>"; };
+		AA3380382283D64900831032 /* DownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadViewController.m; sourceTree = "<group>"; };
+		AA3380392283D64900831032 /* DownLoadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownLoadViewController.xib; sourceTree = "<group>"; };
+		AA33803C2283D99100831032 /* DownLoadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownLoadTableViewCell.h; sourceTree = "<group>"; };
+		AA33803D2283D99100831032 /* DownLoadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadTableViewCell.m; sourceTree = "<group>"; };
+		AA33803E2283D99100831032 /* DownLoadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownLoadTableViewCell.xib; sourceTree = "<group>"; };
+		AA3380412284004500831032 /* ijk_m3u8.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ijk_m3u8.md; sourceTree = "<group>"; };
+		AA3380432288486F00831032 /* KPNormalDownLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPNormalDownLoad.h; sourceTree = "<group>"; };
+		AA3380442288486F00831032 /* KPNormalDownLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPNormalDownLoad.m; sourceTree = "<group>"; };
+		AA33804A228856B800831032 /* NETFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NETFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA33804C228856B800831032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA33804D228856B800831032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA33804F228856B800831032 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA338050228856B800831032 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA338052228856BA00831032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA338055228856BA00831032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA338057228856BA00831032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA338058228856BA00831032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA33805A228856BA00831032 /* NETFly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NETFly.entitlements; sourceTree = "<group>"; };
+		AA92A6EB229C1BCF00F0B12E /* TYDownLoadDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDownLoadDataManager.m; sourceTree = "<group>"; };
+		AA92A6EC229C1BCF00F0B12E /* TYDownLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDownLoadModel.m; sourceTree = "<group>"; };
+		AA92A6ED229C1BCF00F0B12E /* TYDownloadUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDownloadUtility.m; sourceTree = "<group>"; };
+		AA92A6EE229C1BCF00F0B12E /* TYDownloadSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDownloadSessionManager.m; sourceTree = "<group>"; };
+		AA92A6EF229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+TYCorrectedResumeData.m"; sourceTree = "<group>"; };
+		AA92A6F0229C1BCF00F0B12E /* TYDownLoadDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownLoadDataManager.h; sourceTree = "<group>"; };
+		AA92A6F1229C1BCF00F0B12E /* TYDownloadUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownloadUtility.h; sourceTree = "<group>"; };
+		AA92A6F2229C1BCF00F0B12E /* TYDownLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownLoadModel.h; sourceTree = "<group>"; };
+		AA92A6F3229C1BCF00F0B12E /* TYDownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownloadDelegate.h; sourceTree = "<group>"; };
+		AA92A6F4229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+TYCorrectedResumeData.h"; sourceTree = "<group>"; };
+		AA92A6F5229C1BCF00F0B12E /* TYDownloadSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownloadSessionManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3380022283C22000831032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9812C9B6983D2D09C5E2C363 /* libPods-KpengIjkPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA338047228856B800831032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400EB5B830E022EA3CD6C364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				432A661989D09AFCE494C8FD /* Pods-KpengIjkPlayer.debug.xcconfig */,
+				8D81BB68B26827CD30354C42 /* Pods-KpengIjkPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70024704AAA9811E114E518B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4146992252A6A1633078F732 /* libPods-KpengIjkPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA337FFC2283C22000831032 = {
+			isa = PBXGroup;
+			children = (
+				AA3380412284004500831032 /* ijk_m3u8.md */,
+				AA3380072283C22000831032 /* KpengIjkPlayer */,
+				AA33804B228856B800831032 /* NETFly */,
+				AA3380062283C22000831032 /* Products */,
+				400EB5B830E022EA3CD6C364 /* Pods */,
+				70024704AAA9811E114E518B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3380062283C22000831032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3380052283C22000831032 /* KpengIjkPlayer.app */,
+				AA33804A228856B800831032 /* NETFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3380072283C22000831032 /* KpengIjkPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AA92A6EA229C1BCF00F0B12E /* TYDownloadManager */,
+				AA3380362283D21B00831032 /* download */,
+				AA3380352283D20000831032 /* Player */,
+				AA3380082283C22000831032 /* AppDelegate.h */,
+				AA3380092283C22000831032 /* AppDelegate.m */,
+				AA33800B2283C22000831032 /* ViewController.h */,
+				AA33800C2283C22000831032 /* ViewController.m */,
+				AA3380372283D64900831032 /* DownLoadViewController.h */,
+				AA3380382283D64900831032 /* DownLoadViewController.m */,
+				AA3380392283D64900831032 /* DownLoadViewController.xib */,
+				AA33803C2283D99100831032 /* DownLoadTableViewCell.h */,
+				AA33803D2283D99100831032 /* DownLoadTableViewCell.m */,
+				AA33803E2283D99100831032 /* DownLoadTableViewCell.xib */,
+				AA33800E2283C22000831032 /* Main.storyboard */,
+				AA3380112283C22400831032 /* Assets.xcassets */,
+				AA3380132283C22400831032 /* LaunchScreen.storyboard */,
+				AA3380162283C22400831032 /* Info.plist */,
+				AA3380172283C22400831032 /* main.m */,
+			);
+			path = KpengIjkPlayer;
+			sourceTree = "<group>";
+		};
+		AA3380242283C28800831032 /* BrightnessVolumeView */ = {
+			isa = PBXGroup;
+			children = (
+				AA3380252283C28800831032 /* BrightnessVolumeView.h */,
+				AA3380262283C28800831032 /* BrightnessView.h */,
+				AA3380272283C28800831032 /* BrightnessVolumeView.m */,
+				AA3380282283C28800831032 /* BrightnessView.m */,
+				AA3380292283C28800831032 /* resource.bundle */,
+			);
+			path = BrightnessVolumeView;
+			sourceTree = "<group>";
+		};
+		AA3380352283D20000831032 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				AA33802A2283C28900831032 /* NowTimeSpeed.h */,
+				AA33802B2283C28900831032 /* NowTimeSpeed.m */,
+				AA33802C2283C28900831032 /* KPIjkVideoView.h */,
+				AA33802D2283C28900831032 /* KPIjkVideoView.m */,
+				AA3380242283C28800831032 /* BrightnessVolumeView */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		AA3380362283D21B00831032 /* download */ = {
+			isa = PBXGroup;
+			children = (
+				AA33801E2283C26B00831032 /* KPm3u8DownLoad.h */,
+				AA33801F2283C26B00831032 /* KPm3u8DownLoad.m */,
+				AA3380432288486F00831032 /* KPNormalDownLoad.h */,
+				AA3380442288486F00831032 /* KPNormalDownLoad.m */,
+				AA3380212283C26B00831032 /* WHCFileManager.h */,
+				AA3380202283C26B00831032 /* WHCFileManager.m */,
+			);
+			path = download;
+			sourceTree = "<group>";
+		};
+		AA33804B228856B800831032 /* NETFly */ = {
+			isa = PBXGroup;
+			children = (
+				AA33804C228856B800831032 /* AppDelegate.h */,
+				AA33804D228856B800831032 /* AppDelegate.m */,
+				AA33804F228856B800831032 /* ViewController.h */,
+				AA338050228856B800831032 /* ViewController.m */,
+				AA338052228856BA00831032 /* Assets.xcassets */,
+				AA338054228856BA00831032 /* Main.storyboard */,
+				AA338057228856BA00831032 /* Info.plist */,
+				AA338058228856BA00831032 /* main.m */,
+				AA33805A228856BA00831032 /* NETFly.entitlements */,
+			);
+			path = NETFly;
+			sourceTree = "<group>";
+		};
+		AA92A6EA229C1BCF00F0B12E /* TYDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA92A6EB229C1BCF00F0B12E /* TYDownLoadDataManager.m */,
+				AA92A6EC229C1BCF00F0B12E /* TYDownLoadModel.m */,
+				AA92A6ED229C1BCF00F0B12E /* TYDownloadUtility.m */,
+				AA92A6EE229C1BCF00F0B12E /* TYDownloadSessionManager.m */,
+				AA92A6EF229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.m */,
+				AA92A6F0229C1BCF00F0B12E /* TYDownLoadDataManager.h */,
+				AA92A6F1229C1BCF00F0B12E /* TYDownloadUtility.h */,
+				AA92A6F2229C1BCF00F0B12E /* TYDownLoadModel.h */,
+				AA92A6F3229C1BCF00F0B12E /* TYDownloadDelegate.h */,
+				AA92A6F4229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.h */,
+				AA92A6F5229C1BCF00F0B12E /* TYDownloadSessionManager.h */,
+			);
+			path = TYDownloadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3380042283C22000831032 /* KpengIjkPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA33801B2283C22400831032 /* Build configuration list for PBXNativeTarget "KpengIjkPlayer" */;
+			buildPhases = (
+				DB25F2B566B311F6BFA34955 /* [CP] Check Pods Manifest.lock */,
+				AA3380012283C22000831032 /* Sources */,
+				AA3380022283C22000831032 /* Frameworks */,
+				AA3380032283C22000831032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KpengIjkPlayer;
+			productName = KpengIjkPlayer;
+			productReference = AA3380052283C22000831032 /* KpengIjkPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA338049228856B800831032 /* NETFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA33805D228856BE00831032 /* Build configuration list for PBXNativeTarget "NETFly" */;
+			buildPhases = (
+				AA338046228856B800831032 /* Sources */,
+				AA338047228856B800831032 /* Frameworks */,
+				AA338048228856B800831032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NETFly;
+			productName = NETFly;
+			productReference = AA33804A228856B800831032 /* NETFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA337FFD2283C22000831032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "王朋";
+				TargetAttributes = {
+					AA3380042283C22000831032 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AA338049228856B800831032 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA3380002283C22000831032 /* Build configuration list for PBXProject "KpengIjkPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA337FFC2283C22000831032;
+			productRefGroup = AA3380062283C22000831032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3380042283C22000831032 /* KpengIjkPlayer */,
+				AA338049228856B800831032 /* NETFly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3380032283C22000831032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3380152283C22400831032 /* LaunchScreen.storyboard in Resources */,
+				AA3380422284004500831032 /* ijk_m3u8.md in Resources */,
+				AA3380402283D99100831032 /* DownLoadTableViewCell.xib in Resources */,
+				AA3380122283C22400831032 /* Assets.xcassets in Resources */,
+				AA33803B2283D64900831032 /* DownLoadViewController.xib in Resources */,
+				AA3380102283C22000831032 /* Main.storyboard in Resources */,
+				AA3380302283C28900831032 /* resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA338048228856B800831032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA338053228856BA00831032 /* Assets.xcassets in Resources */,
+				AA338056228856BA00831032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB25F2B566B311F6BFA34955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KpengIjkPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3380012283C22000831032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA33800D2283C22000831032 /* ViewController.m in Sources */,
+				AA33802F2283C28900831032 /* BrightnessView.m in Sources */,
+				AA3380322283C28900831032 /* KPIjkVideoView.m in Sources */,
+				AA3380222283C26B00831032 /* KPm3u8DownLoad.m in Sources */,
+				AA33803A2283D64900831032 /* DownLoadViewController.m in Sources */,
+				AA3380452288486F00831032 /* KPNormalDownLoad.m in Sources */,
+				AA92A6F7229C1BCF00F0B12E /* TYDownLoadModel.m in Sources */,
+				AA3380182283C22400831032 /* main.m in Sources */,
+				AA33800A2283C22000831032 /* AppDelegate.m in Sources */,
+				AA92A6F9229C1BCF00F0B12E /* TYDownloadSessionManager.m in Sources */,
+				AA33803F2283D99100831032 /* DownLoadTableViewCell.m in Sources */,
+				AA3380312283C28900831032 /* NowTimeSpeed.m in Sources */,
+				AA3380232283C26B00831032 /* WHCFileManager.m in Sources */,
+				AA92A6F8229C1BCF00F0B12E /* TYDownloadUtility.m in Sources */,
+				AA33802E2283C28900831032 /* BrightnessVolumeView.m in Sources */,
+				AA92A6FA229C1BCF00F0B12E /* NSURLSession+TYCorrectedResumeData.m in Sources */,
+				AA92A6F6229C1BCF00F0B12E /* TYDownLoadDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA338046228856B800831032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA338051228856B800831032 /* ViewController.m in Sources */,
+				AA338059228856BA00831032 /* main.m in Sources */,
+				AA33804E228856B800831032 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA33800E2283C22000831032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA33800F2283C22000831032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3380132283C22400831032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3380142283C22400831032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA338054228856BA00831032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA338055228856BA00831032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3380192283C22400831032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA33801A2283C22400831032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA33801C2283C22400831032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432A661989D09AFCE494C8FD /* Pods-KpengIjkPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BKH4N4V2S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KpengIjkPlayer",
+				);
+				INFOPLIST_FILE = KpengIjkPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smithgoo.KpengIjkPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		AA33801D2283C22400831032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D81BB68B26827CD30354C42 /* Pods-KpengIjkPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BKH4N4V2S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KpengIjkPlayer",
+				);
+				INFOPLIST_FILE = KpengIjkPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smithgoo.KpengIjkPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+		AA33805B228856BA00831032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NETFly/NETFly.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NETFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = smithgoo.NETFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA33805C228856BA00831032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NETFly/NETFly.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NETFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = smithgoo.NETFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3380002283C22000831032 /* Build configuration list for PBXProject "KpengIjkPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3380192283C22400831032 /* Debug */,
+				AA33801A2283C22400831032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA33801B2283C22400831032 /* Build configuration list for PBXNativeTarget "KpengIjkPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA33801C2283C22400831032 /* Debug */,
+				AA33801D2283C22400831032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA33805D228856BE00831032 /* Build configuration list for PBXNativeTarget "NETFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA33805B228856BA00831032 /* Debug */,
+				AA33805C228856BA00831032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA337FFD2283C22000831032 /* Project object */;
+}
