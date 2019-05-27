@@ -30,4 +30,32 @@ KPm3u8DownLoad **（m3u8的下载原理是先将服务器的m3u8放到本地遍�
 
 
 
+#m3u8解密播放没那么难！
+****
+前情提要 m3u8 是现在流行的播放和下载的载体 ,轻量便捷
+如果常规的link 直接播就行了 但是加密的m3u8 就需要了解其原理 
+
+	例：http://fastwebcache.yod.cn/hls-enc-test/jialebi/stream.m3u8 
+	这个url我们在Safari中可以直接打开,在Chrome中就被直接下载成stream.m3u8文
+	件,我们用文本编辑器打开就会发现 里面包含
+	 #EXT-X-KEY:METHOD=AES-128,URI="key.bin" METHOD 是加密方式 URI 是解密	用的秘钥路径 于是通过http://fastwebcache.yod.cn/hls-enc-test/jialebi/
+	 key.bin 在Chrome 中我们下载到了加密文件
+
+****
+	
+1.网络
+	
+	加密的和未加密的用ijkplayer 和avplayer 只要给出m3u8 http链接就直接可以播放 
+	它们内部都做了对key的识别和解密（ijkplayer 里面需要在编译的时候在openssl添
+	加--enable--protocol=crypto  avplayer 自带支持）
+
+2.本地
+	
+	如果是未加密的m3u8 可以直接用url 来播放ijkplayer 和avplayer都可以
+	但是如果是加密的m3u8 那么必须在本地构建一个本地服务器 然后再通过本地的path播放
+	本质上还是和网络一样都是交给播放器处理
+	
+	
+
+Demo下方
 
