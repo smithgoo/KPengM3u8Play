@@ -1,3 +1,8 @@
+说明 拿到项目 请看文字
+
+	pod install
+
+
 ##封装的文件有两个(主要用于m3u8的播放和下载)
 ##1 ijk播放器
 KPIjkVideoView  **(对于ijkplayer的二次封装 本demo是支持https的 兼容ijk 支持的播放格式 本地和网络播放器地址都支持)**
