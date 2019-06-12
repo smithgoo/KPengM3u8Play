@@ -245,6 +245,10 @@ destinationPath:(NSString *)destinationPath
 progress:(void (^)(NSProgress *downloadProgress))progress
               completion:(void (^)(NSURLResponse *response, NSURL *filePath, NSError *error))completion {
         AFHTTPSessionManager *manage  = [AFHTTPSessionManager manager];
+        // 2.设置非校验证书模式
+        manager.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+        manager.securityPolicy.allowInvalidCertificates = YES;
+        [manager.securityPolicy setValidatesDomainName:NO];
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: downloadURL]];
         _downloadTask =
         [manage downloadTaskWithRequest:request
