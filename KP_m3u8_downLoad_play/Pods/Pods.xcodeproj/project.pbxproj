@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13D6EEDAC72924C31D6C9B108525FE22 /* Pods-KpengIjkPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F8D1ADC0D52797FA4BBD4C07A7CD6 /* Pods-KpengIjkPlayer-dummy.m */; };
+		04B33F0B64C8D242F68E1F501033A287 /* Pods-KpengIjkPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C1C2DA0C25DAD57A8FB848ACC974D /* Pods-KpengIjkPlayer-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		493873AC7C545AF5ACD8EB908CCC3A66 /* Pods-KpengIjkPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KpengIjkPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B9F8D1ADC0D52797FA4BBD4C07A7CD6 /* Pods-KpengIjkPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KpengIjkPlayer-dummy.m"; sourceTree = "<group>"; };
-		89505944F9F787B7E321A157DEC00F39 /* Pods-KpengIjkPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KpengIjkPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		A5C9D47D290DBF0BD39ED5EFF4212F6E /* libPods-KpengIjkPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KpengIjkPlayer.a"; path = "libPods-KpengIjkPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CDF0999CE95AB1C7F44775D980E92298 /* Pods-KpengIjkPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KpengIjkPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDDCC31F5F907F5F48A985FAA85B20B3 /* Pods-KpengIjkPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KpengIjkPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		039020CAEDEDBBE4D7628E3282218CD4 /* libPods-KpengIjkPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KpengIjkPlayer.a"; path = "libPods-KpengIjkPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489BDD841F0382F2AB1DC8F1224E9229 /* Pods-KpengIjkPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KpengIjkPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		578FB8AAC920D9B9E4253F34A0881CE0 /* Pods-KpengIjkPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KpengIjkPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		8C5C1C2DA0C25DAD57A8FB848ACC974D /* Pods-KpengIjkPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KpengIjkPlayer-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A359EA67AF3A624FC4F20694F83A75B2 /* Pods-KpengIjkPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KpengIjkPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5212C0D3D48E3AAD6C3E6461E116B69 /* Pods-KpengIjkPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KpengIjkPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B13B1DD2C0D1EC510DBEEC511CEEC703 /* Frameworks */ = {
+		F85FB7F39B5413803AE281448BB1A4BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,56 +31,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		08F9A95C558D3128FA90FD83815FC0CC /* Pods-KpengIjkPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A5212C0D3D48E3AAD6C3E6461E116B69 /* Pods-KpengIjkPlayer-acknowledgements.markdown */,
+				A359EA67AF3A624FC4F20694F83A75B2 /* Pods-KpengIjkPlayer-acknowledgements.plist */,
+				8C5C1C2DA0C25DAD57A8FB848ACC974D /* Pods-KpengIjkPlayer-dummy.m */,
+				489BDD841F0382F2AB1DC8F1224E9229 /* Pods-KpengIjkPlayer.debug.xcconfig */,
+				578FB8AAC920D9B9E4253F34A0881CE0 /* Pods-KpengIjkPlayer.release.xcconfig */,
+			);
+			name = "Pods-KpengIjkPlayer";
+			path = "Target Support Files/Pods-KpengIjkPlayer";
+			sourceTree = "<group>";
+		};
+		722D2D6A9C0CAB22EE3646E2B809CF44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F9A95C558D3128FA90FD83815FC0CC /* Pods-KpengIjkPlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFCDA952711129BC8970DCAD9658F07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				039020CAEDEDBBE4D7628E3282218CD4 /* libPods-KpengIjkPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BFCDA952711129BC8970DCAD9658F07C /* Products */,
+				722D2D6A9C0CAB22EE3646E2B809CF44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B71B3DF6263B5267B7F648C1121F51C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A5C9D47D290DBF0BD39ED5EFF4212F6E /* libPods-KpengIjkPlayer.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BEA2B0830B58D72588949DCAE51DCC0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F6C23571FDED631605B1F8874868FE7 /* Pods-KpengIjkPlayer */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				3B71B3DF6263B5267B7F648C1121F51C /* Products */,
-				4BEA2B0830B58D72588949DCAE51DCC0 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7F6C23571FDED631605B1F8874868FE7 /* Pods-KpengIjkPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				CDF0999CE95AB1C7F44775D980E92298 /* Pods-KpengIjkPlayer-acknowledgements.markdown */,
-				493873AC7C545AF5ACD8EB908CCC3A66 /* Pods-KpengIjkPlayer-acknowledgements.plist */,
-				7B9F8D1ADC0D52797FA4BBD4C07A7CD6 /* Pods-KpengIjkPlayer-dummy.m */,
-				89505944F9F787B7E321A157DEC00F39 /* Pods-KpengIjkPlayer.debug.xcconfig */,
-				EDDCC31F5F907F5F48A985FAA85B20B3 /* Pods-KpengIjkPlayer.release.xcconfig */,
-			);
-			name = "Pods-KpengIjkPlayer";
-			path = "Target Support Files/Pods-KpengIjkPlayer";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44F973047351AAFA51EBB24A9BD1A9A2 /* Headers */ = {
+		3B7D3191DC65D32C132B3538CFFA4C5F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,13 +90,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F46154F6ABD572284B6C4F69D4DD4F1 /* Pods-KpengIjkPlayer */ = {
+		C476824A0A82BB2E69943B891D3854B3 /* Pods-KpengIjkPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA79C6F52F6F47B17B62F3B04EA6E254 /* Build configuration list for PBXNativeTarget "Pods-KpengIjkPlayer" */;
+			buildConfigurationList = 0CA0ECBD91575EBA4329E112475B5FCE /* Build configuration list for PBXNativeTarget "Pods-KpengIjkPlayer" */;
 			buildPhases = (
-				44F973047351AAFA51EBB24A9BD1A9A2 /* Headers */,
-				51E3300F777BB55106928AB33E5D1B13 /* Sources */,
-				B13B1DD2C0D1EC510DBEEC511CEEC703 /* Frameworks */,
+				3B7D3191DC65D32C132B3538CFFA4C5F /* Headers */,
+				B8C0CEA1891601B3FABB72D437C8E419 /* Sources */,
+				F85FB7F39B5413803AE281448BB1A4BB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,48 +104,108 @@
 			);
 			name = "Pods-KpengIjkPlayer";
 			productName = "Pods-KpengIjkPlayer";
-			productReference = A5C9D47D290DBF0BD39ED5EFF4212F6E /* libPods-KpengIjkPlayer.a */;
+			productReference = 039020CAEDEDBBE4D7628E3282218CD4 /* libPods-KpengIjkPlayer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B71B3DF6263B5267B7F648C1121F51C /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BFCDA952711129BC8970DCAD9658F07C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F46154F6ABD572284B6C4F69D4DD4F1 /* Pods-KpengIjkPlayer */,
+				C476824A0A82BB2E69943B891D3854B3 /* Pods-KpengIjkPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51E3300F777BB55106928AB33E5D1B13 /* Sources */ = {
+		B8C0CEA1891601B3FABB72D437C8E419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D6EEDAC72924C31D6C9B108525FE22 /* Pods-KpengIjkPlayer-dummy.m in Sources */,
+				04B33F0B64C8D242F68E1F501033A287 /* Pods-KpengIjkPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +264,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		66E04C41E1C946592D85F360EAA4F2E2 /* Debug */ = {
+		A11F52A7434E6F9E3C9213A9433B2BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89505944F9F787B7E321A157DEC00F39 /* Pods-KpengIjkPlayer.debug.xcconfig */;
+			baseConfigurationReference = 489BDD841F0382F2AB1DC8F1224E9229 /* Pods-KpengIjkPlayer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -230,9 +290,9 @@
 			};
 			name = Debug;
 		};
-		AE03DBCD23CF66A8D8755223E285CD8E /* Release */ = {
+		A67DEF5EFD51DE4545001FF2E1450684 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDDCC31F5F907F5F48A985FAA85B20B3 /* Pods-KpengIjkPlayer.release.xcconfig */;
+			baseConfigurationReference = 578FB8AAC920D9B9E4253F34A0881CE0 /* Pods-KpengIjkPlayer.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -252,88 +312,28 @@
 			};
 			name = Release;
 		};
-		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0CA0ECBD91575EBA4329E112475B5FCE /* Build configuration list for PBXNativeTarget "Pods-KpengIjkPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
-				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+				A11F52A7434E6F9E3C9213A9433B2BBD /* Debug */,
+				A67DEF5EFD51DE4545001FF2E1450684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA79C6F52F6F47B17B62F3B04EA6E254 /* Build configuration list for PBXNativeTarget "Pods-KpengIjkPlayer" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66E04C41E1C946592D85F360EAA4F2E2 /* Debug */,
-				AE03DBCD23CF66A8D8755223E285CD8E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

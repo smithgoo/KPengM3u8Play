@@ -65,6 +65,29 @@ static id sharedInstance = nil;
                                                      error:nil];
     NSArray *array = [content componentsSeparatedByString:@"\n"];
     
+    __block BOOL containM3u8 =NO;
+    __block NSString *finalUrl=@"";
+    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (![obj hasPrefix:@"#"]&&[obj hasSuffix:@"m3u8"]) {
+            containM3u8 =YES;
+            finalUrl =obj;
+            *stop =YES;
+        }
+    }];
+    
+    if (containM3u8) {
+        if ([WHCFileManager isExistsAtPath:filePath]) {
+            [WHCFileManager removeItemAtPath:filePath];
+        }
+        NSMutableArray *urlArr =[NSMutableArray arrayWithArray:[url componentsSeparatedByString:@"/"]];
+        [urlArr removeLastObject];
+        NSString *furl =[urlArr componentsJoinedByString:@"/"];
+        furl =[furl stringByAppendingPathComponent:finalUrl];
+        [self m3u8DownLoadAction:furl];
+        return ;
+    }
+    
+    
     // 筛选出 .ts 文件
     NSMutableArray *listArr = [NSMutableArray arrayWithCapacity:array.count];
    

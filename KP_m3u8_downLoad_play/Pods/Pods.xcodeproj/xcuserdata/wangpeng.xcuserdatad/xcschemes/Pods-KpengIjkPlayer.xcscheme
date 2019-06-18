@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F46154F6ABD572284B6C4F69D4DD4F1"
+               BlueprintIdentifier = "C476824A0A82BB2E69943B891D3854B3"
+               BuildableName = "libPods-KpengIjkPlayer.a"
                BlueprintName = "Pods-KpengIjkPlayer"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-KpengIjkPlayer.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
