@@ -65,6 +65,26 @@ static id sharedInstance = nil;
                                                      error:nil];
     NSArray *array = [content componentsSeparatedByString:@"\n"];
     
+  //多重m3u8嵌套处理
+    [self MutableDealurl:array filePath:filePath url:url];
+    
+    // 筛选出 .ts 文件
+    NSMutableArray *listArr = [NSMutableArray arrayWithCapacity:array.count];
+   
+    for (NSString *str in array) {
+        if ([str containsString:@".ts"]) {
+            [listArr addObject:str];
+        }
+    }
+    
+    NSString *firstStr = listArr.firstObject;
+    NSString *videoName = [firstStr componentsSeparatedByString:@"."].firstObject;
+//    self.tipLab.text = [NSString stringWithFormat:@"共有 %ld 个视频", listArr.count];
+    // 下载 ts 文件
+    [self downloadVideoWithArr:listArr andIndex:0 videoName:videoName url:url];
+}
+
+- (void)MutableDealurl:(NSArray*)array filePath:(NSString*)filePath url:(NSString*)url {
     __block BOOL containM3u8 =NO;
     __block NSString *finalUrl=@"";
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -86,23 +106,8 @@ static id sharedInstance = nil;
         [self m3u8DownLoadAction:furl];
         return ;
     }
-    
-    
-    // 筛选出 .ts 文件
-    NSMutableArray *listArr = [NSMutableArray arrayWithCapacity:array.count];
-   
-    for (NSString *str in array) {
-        if ([str containsString:@".ts"]) {
-            [listArr addObject:str];
-        }
-    }
-    
-    NSString *firstStr = listArr.firstObject;
-    NSString *videoName = [firstStr componentsSeparatedByString:@"."].firstObject;
-//    self.tipLab.text = [NSString stringWithFormat:@"共有 %ld 个视频", listArr.count];
-    // 下载 ts 文件
-    [self downloadVideoWithArr:listArr andIndex:0 videoName:videoName url:url];
 }
+
 
 // 循环下载 ts 文件
 - (void)downloadVideoWithArr:(NSArray *)listArr andIndex:(NSInteger)index videoName:(NSString *)videoName url:(NSString*)url{
